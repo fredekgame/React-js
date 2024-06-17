@@ -1,5 +1,5 @@
 import './App.css'
-  import {Product} from './Product.jsx'
+import Product from './Product.jsx'
  
  export default function App() {
   return (
