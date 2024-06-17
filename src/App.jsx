@@ -1,10 +1,26 @@
 import './App.css'
-import Card from './components/Card'
+// import Card from './components/Card'
 
-function App() {
+const Product = () => {
   return (
-    <Card name={'test'}>eerrer</Card>
+    <div>
+      <h2>Cookies</h2>
+      <p>Price: 999 credits</p>
+    </div>
   )
-}
-
-export default App
+ }
+ 
+ 
+ export default function App() {
+  return (
+    <div>
+      <h1>Products</h1>
+ 
+ 
+      <Product />
+      <Product />
+      <Product />
+    </div>
+  )
+ }
+ 
