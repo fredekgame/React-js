@@ -1,15 +1,5 @@
 import './App.css'
-// import Card from './components/Card'
-
-const Product = () => {
-  return (
-    <div>
-      <h2>Cookies</h2>
-      <p>Price: 999 credits</p>
-    </div>
-  )
- }
- 
+import Product from './Product'
  
  export default function App() {
   return (
