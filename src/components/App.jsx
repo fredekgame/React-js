@@ -4,6 +4,7 @@ import Product from './Product.jsx'
  export default function App() {
   return (
     <div>
+      <button>Click</button>
       <h1>Best selling</h1>
 
       <Product
